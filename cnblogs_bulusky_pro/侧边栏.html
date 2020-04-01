@@ -1,0 +1,48 @@
+<link rel="stylesheet" type="text/css" href="https://blog-static.cnblogs.com/files/nishoushun/waifu.css" />
+<link rel="stylesheet" type="text/css" href="https://blog-static.cnblogs.com/files/nishoushun/flat-ui.min.css" />
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://blog-static.cnblogs.com/files/nishoushun/live2d.min.js"></script>
+<script src="https://blog-static.cnblogs.com/files/nishoushun/waifu-tips.js"></script>
+<div class="waifu" id="waifu">
+    <div class="waifu-tips" style="opacity: 10;"></div>
+    <canvas id="live2d" width="266" height="266" class="live2d"></canvas>
+    <div class="waifu-tool">
+        <span class="fui-chat"></span>
+        <span class="fui-eye"></span>
+        <span class="fui-user"></span>
+        <span class="fui-photo"></span>
+    </div>
+</div>
+
+<script type="text/javascript">initModel()</script>
+
+<script type="text/javascript"> 
+/* 鼠标特效 */ 
+var a_idx = 0; 
+jQuery(document).ready(function($) { 
+    $("body").click(function(e) { 
+        var a = new Array("富强","民主","和谐","文明","自由","平等","公正","法治","爱国","敬业","诚信","友善"); 
+        var $i = $("<span/>").text(a[a_idx]); 
+        a_idx = (a_idx + 1) % a.length; 
+        var x = e.pageX, 
+        y = e.pageY; 
+        $i.css({ 
+            "z-index": 999999999999999999999999999999999999999999999999999999999999999999999, 
+            "top": y - 20, 
+            "left": x, 
+            "position": "absolute", 
+            "font-weight": "bold", 
+            "color": "rgb(72,85,137)" 
+        }); 
+        $("body").append($i); 
+        $i.animate({ 
+            "top": y - 180, 
+            "opacity": 0 
+        }, 
+        1500, 
+        function() { 
+            $i.remove(); 
+        }); 
+    }); 
+}); 
+</script>
