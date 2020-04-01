@@ -1,4 +1,4 @@
-## 本主题是对https://github.com/Summertime-Wu/make_cnblogs_better主题的一个修改，喜欢的话可以拿去
+## 本主题是对[https://github.com/Summertime-Wu/make_cnblogs_better](https://github.com/Summertime-Wu/make_cnblogs_better)主题的一个修改，喜欢的话可以拿去
 
 1. 首先你得有个[博客](http://www.cnblogs.com/)
 
