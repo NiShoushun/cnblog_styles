@@ -1,18 +1,20 @@
 ## 本主题是对[https://github.com/Summertime-Wu/make_cnblogs_better](https://github.com/Summertime-Wu/make_cnblogs_better)主题的一个修改，喜欢的话可以拿去
 
-1. 首先你得有个[博客](http://www.cnblogs.com/)
+### 1. 改动
 
-2. 打开 [博客后台管理](https://i.cnblogs.com/Configure.aspx)
+* 首页的头部图片显示（由于不懂前段，只能将头部hight设为1000px，对于非1080p分辨率的显示器会显示异常）
 
-3. 申请js权限
+* 添加看板娘
 
-4. 在博客皮肤选项卡中将博客皮肤设置为： [BlueSky]
+* 重新添加掩盖掉的侧边栏（依旧为原生样式，如果需要的话请自行更改）
 
-5. 复制文件到相应的设置中
+* 其他的一些小修改
 
-6. 根据自身情况修改页尾.html中的js
+  
 
-7. 保存，即可食用
+### 2. 具体使用
+
+* 请看[原主题使用方法](https://github.com/Summertime-Wu/make_cnblogs_better)
 
 ## 博客示例
 
