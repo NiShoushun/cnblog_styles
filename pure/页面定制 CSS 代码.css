@@ -318,6 +318,8 @@ body {
     #mainContent,
     #footer {
         padding-left: 0px;
+        position: absolute;
+        bottom: 0px;
     }
 
     #sideBar.sideBar-open {
@@ -326,7 +328,7 @@ body {
 
     /* 遮罩层 */
     .lyear-mask-modal {
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: #6e6e6e;
         height: 100%;
         left: 0;
         opacity: 1;
@@ -334,7 +336,8 @@ body {
         visibility: visible;
         width: 100%;
         z-index: 5;
-        position: fixed;
+        position: absolute;
+        bottom: 0px;
         -webkit-transition: visibility 0 linear 0.4s, opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         transition: visibility 0 linear 0.4s, opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         -webkit-transform: translateZ(0);
@@ -625,6 +628,10 @@ body {
     display: grid;
     grid-template-columns: 100%;
     text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0px;
 }
 
 #sidebar_news {
