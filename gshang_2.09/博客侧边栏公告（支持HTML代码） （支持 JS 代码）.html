@@ -1,0 +1,60 @@
+<script type="text/javascript" defer="defer">
+	// 设置公告
+	var news =
+		[
+		]
+	// 设置博客信息
+	var myprofile = [{
+		blogName: "Niss",
+		blogAvatar: "https://ni187note-pics.oss-cn-hangzhou.aliyuncs.com/notes-img/20200330000417.png",
+		blogSign: "Too much to learn.",
+		blogFollow: "follow('30807ee3-3273-4cff-72df-08d619358b99')",
+		QQ: "1623339719",
+		Github: "https://github.com/NiShoushun",
+		WeChat: "https://ni187note-pics.oss-cn-hangzhou.aliyuncs.com/notes-img/20200401195622.png"
+	}];
+
+	// 设置首页轮播
+	var mybanner = [
+
+
+
+	];
+
+	// 设置导航栏扩展
+
+	var mynav = [{
+		id: "blog_nav_cnblogs",
+		url: "https://home.cnblogs.com",
+		title: "园子"
+	},
+
+	{
+		id: "blog_nav_frieds",
+		url: "https://www.bilibili.com/",
+		title: "友链"
+	},
+	{
+		id: "blog_nav_theme",
+		url: "javascript:changeTheme()",
+		title: "夜间模式"
+	}
+	];
+	$(document).ready(function () {
+
+		loadNewsinfo(news); //公告
+		setFavio(myprofile); // 网页tab图像
+		loadThemeColor(); //导入主题颜色
+		extendNav(mynav); // 导航栏扩展
+		loadBanner(mybanner); //首页轮播
+		setPostSideBar(); //侧边栏目录
+		blankTarget(); //文章链接新窗口打开
+		copyCode(); //代码块复制
+		tableScorll(); //表格滚动
+		ninghtTip(); //夜间模式提醒
+		myscroll();
+		Notiflix.Notify.Init();
+		mymd();
+	});
+	$("#footer").append('<br/><a href="https://www.cnblogs.com/gshang/p/biliTheme.html">Theme Bili V2.0.9 </a>');
+</script>
