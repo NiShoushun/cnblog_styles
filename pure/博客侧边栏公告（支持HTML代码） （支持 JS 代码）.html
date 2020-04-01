@@ -1,0 +1,56 @@
+<script>
+	jQuery(function () {
+		pure({
+			favicon: "https://ni187note-pics.oss-cn-hangzhou.aliyuncs.com/notes-img/20200401201739.png",
+			avatar: "https://ni187note-pics.oss-cn-hangzhou.aliyuncs.com/notes-img/20200401205508.jpg",
+			setContact: {
+				enable: true,
+				data: {
+					wechat: 'https://ni187note-pics.oss-cn-hangzhou.aliyuncs.com/notes-img/20200401195622.png',
+					qq: '1623339719',
+					email: '1623339719@qq.com'
+				}
+			},
+			news: {
+				enable: true,
+				data: [
+					'我要学习！！！',
+				]
+			},
+			banner: {
+				enable: true,
+				data: [
+				{
+					url: "https://www.cnblogs.com/nishoushun",
+					img: "https://ni187note-pics.oss-cn-hangzhou.aliyuncs.com/notes-img/20200330002747.jpg",
+					title: "路漫漫其修远兮，吾将上下而求索"
+				},
+				{
+					url: "https://www.bilibili.com/",
+					img: "https://ni187note-pics.oss-cn-hangzhou.aliyuncs.com/notes-img/20200401201745.jpg",
+					title: "Bilibili大学"
+				}
+				]
+			},
+			sidebarContent: true
+		})
+	})
+</script>
+
+<link rel="stylesheet" type="text/css" href="https://blog-static.cnblogs.com/files/nishoushun/waifu.css" />
+<link rel="stylesheet" type="text/css" href="https://blog-static.cnblogs.com/files/nishoushun/flat-ui.min.css" />
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://blog-static.cnblogs.com/files/nishoushun/live2d.min.js"></script>
+<script src="https://blog-static.cnblogs.com/files/nishoushun/waifu-tips.js"></script>
+<div class="waifu" id="waifu">
+    <div class="waifu-tips" style="opacity: 10;"></div>
+    <canvas id="live2d" width="50" height="50" class="live2d"></canvas>
+    <div class="waifu-tool">
+        <span class="fui-chat"></span>
+        <span class="fui-eye"></span>
+        <span class="fui-user"></span>
+        <span class="fui-photo"></span>
+    </div>
+</div>
+
+<script type="text/javascript">initModel()</script>
