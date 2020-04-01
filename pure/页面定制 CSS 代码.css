@@ -28,7 +28,7 @@
 
     /* 主题基础色调 */
     --ThemeColor: var(--blue);
-    --TextColor1: #141418;
+    --TextColor1: #181714;
     --TextColor2: #5f5f6b;
     --TextColor3: #97979f;
     --DividColor: #e7eaf0;
@@ -2129,38 +2129,39 @@ border:none!important;
     .post .postBody h1,
     .blog_comment_body h1 {
         color: var(--TextColor1);
-        /*font-size:var(--text1)!important;*/
+        font-size:var(--text1)!important;
+        font-family: Monaco,FontAwesome;
     }
 
     .post .postBody h2,
-    .blog_comment_body h2 {
-        color: var(--TextColor1);
-        /*font-size:var(--text2)!important;*/
+    blog_comment_body h2 {
+        color:rgb(28, 10, 185);
+        font-size:var(--text2)!important;
     }
 
     .post .postBody h3,
     .blog_comment_body h3 {
-        color: var(--TextColor1);
-        /*font-size:var(--text3)!important;*/
+        color: #DC4437;
+        font-size:var(--text3)!important;
     }
 
     .post .postBody h4,
     .blog_comment_body h4 {
-        color: var(--TextColor1);
-        /*font-size:var(--text4)!important;*/
+        color: #2196F3;
+        font-size:20px!important;
     }
 
 
     .post .postBody h5,
     .blog_comment_body h5 {
         color: var(--TextColor1);
-        /* font-size:var(--text5)!important;*/
+        font-size:var(--text5)!important;
     }
 
     .post .postBody h6,
     .blog_comment_body h6 {
         color: var(--TextColor1);
-        /* font-size:var(--text6)!important;*/
+        font-size:var(--text6)!important;
     }
 
     .post .postBody p,
@@ -2189,7 +2190,7 @@ border:none!important;
         padding: 0 .5em;
         line-height: 1.5 !important;
         font-size: var(--text8) !important;
-        font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+        font-family: Monaco,SFMono-Regular, Menlo, Consolas, "Liberation Mono", "Courier New", monospace !important;
         background-color: var(--BackgroundColor);
     }
 
@@ -2344,6 +2345,9 @@ border:none!important;
     #topics .postDesc a:hover {
         color: var(--ThemeColor);
     }
+
+   
+
 
     #topics #post-date {
         width: 100% !important;
