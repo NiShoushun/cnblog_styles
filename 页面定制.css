@@ -2,8 +2,19 @@
 #sideBar{
 	position:absolute;
 	right:100%;
-	top:0%
+	top:0%;
+	font-family: "Monaco","Consolas","Bitstream Vera Sans Mono","Courier New",Courier,monospace!important;
+	font-size: 13px;
 }
+
+/*--侧边栏标题样式*/
+.catListTitle{
+	font-family: "Monaco","Consolas","Bitstream Vera Sans Mono","Courier New",Courier,monospace!important;
+	font-size: 21px !important;
+	color: #495283 !important;
+}
+
+
 #mainContent{
 	width: 100%;
 	box-shadow: 0 0 0;
