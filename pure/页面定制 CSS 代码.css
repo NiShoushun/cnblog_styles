@@ -920,6 +920,7 @@ body {
 #sidebar_toptags li {
     display: inline-table;
     display: flex;
+    word-break: keep-all;
 }
 
 #leftcontentcontainer .sidebar-block ul a {
@@ -4494,7 +4495,7 @@ div[style="color:green;margin:50px 0;font-weight:normal;"]:before {
 .fullscreen {
     width: 100%;
     height: 100%;
-    background-image: url("https://ni187note-pics.oss-cn-hangzhou.aliyuncs.com/notes-img/20200401201452.jpg");
+    background-image: url("https://ni187note-pics.oss-cn-hangzhou.aliyuncs.com/notes-img/20200401205508.jpg")!important;
     position: fixed;
     background-position: center;
     background-size: cover;
@@ -4578,7 +4579,3 @@ div[style="color:green;margin:50px 0;font-weight:normal;"]:before {
     overflow: hidden !important;
 }
 
-.waifu {
-    position: fixed !important;
-    right: 100% !important;
-}
