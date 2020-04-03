@@ -4561,6 +4561,7 @@ div[style="color:green;margin:50px 0;font-weight:normal;"]:before {
     font-weight: bold;
     line-height: 1.6;
     margin: 0 auto;
+    color: rgb(228, 98, 11);
 }
 
 #calendar-year:after {
@@ -4571,8 +4572,9 @@ div[style="color:green;margin:50px 0;font-weight:normal;"]:before {
     font-size: var(--text5);
     font-weight: bold;
     line-height: 1.6;
-    font-family: sans-serif;
+    font-family: Monaco,sans-serif;
     margin: 24px 0 8px;
+    color: rgb(61, 171, 235);
 }
 
 .fixed {
