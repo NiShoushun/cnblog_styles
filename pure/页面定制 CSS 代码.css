@@ -1318,12 +1318,15 @@ border-top:1px solid var(--DividColor);
 
     .day .postTitle {
         font-size: var(--text5);
-        color: var(--TextColor1) !important;
+        color: rgb(67, 74, 185);
         padding: 14px 14px 10px 14px;
+        font-family: Monaco,Arial, Helvetica, sans-serif;
     }
 
     .postTitle a:hover {
         color: var(--ThemeColor);
+        box-shadow: rgba(109, 108, 108, 0.589);
+        opacity: 0.75;
     }
 
     .postCon {
