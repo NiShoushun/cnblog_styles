@@ -638,7 +638,7 @@ body {
 #sideBar:before {
     content: "";
     height: 64px;
-    background-image: url(https://images.cnblogs.com/cnblogs_com/gshang/1609278/o_200325045024cnblogs-1.png);
+    background-image: url(https://files-cdn.cnblogs.com/files/nishoushun/sidebar.bmp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto 100%;
