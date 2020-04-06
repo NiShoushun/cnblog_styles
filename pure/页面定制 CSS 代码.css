@@ -355,6 +355,7 @@ body {
 	-webkit-box-align: center;
 	align-items: center;
 	min-height: 64px;
+        height: 64px;
 	background-color: var(--BlockColor);
 	width: 100%;
 	position: fixed;
@@ -413,6 +414,7 @@ body {
 	align-items: center;
 	position: relative;
     width: fit-content;
+    opacity: 0.75;
     height: 30px;
 	/* margin-right: 15px; */
 }
