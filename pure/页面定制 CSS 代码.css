@@ -4595,11 +4595,6 @@ div[style="color:green;margin:50px 0;font-weight:normal;"]:before {
     font-family: 'Monaco','Microsoft Yahei';
 }
 
-#aplayer{
-    position: absolute;
-    right:10px;
-}
-
 /*鼠标样式*/
 a:hover {
     cursor:url(https://files.cnblogs.com/files/laoguantongxiegogo/click_24px_1231393_easyicon.net.ico),auto;
