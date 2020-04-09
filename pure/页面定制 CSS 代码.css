@@ -30,10 +30,10 @@
     --ThemeColor: var(--blue);
     --TextColor1: #181714;
     --TextColor2: #5f5f6b;
-    --TextColor3: #97979f;
+    --TextColor3: #3e67c0;
     --DividColor: #e7eaf0;
-    --BlockColor: rgb(238, 238, 238);
-    --BackgroundColor: #f4f6fa;
+    --BlockColor: #f7f3f3;
+    --BackgroundColor: rgb(241, 241, 241);
     --HoverColor: rgba(0, 0, 0, .07);
     /* 主题辅助色调 */
     --AidColor1: #fa7d00;
@@ -53,7 +53,7 @@
     --text10: 10px;
 
     /* 博客头像 */
-    --Avatar: url("https://ni187note-pics.oss-cn-hangzhou.aliyuncs.com/notes-img/20200401205508.jpg");
+    --Avatar: url("https://files-cdn.cnblogs.com/files/nishoushun/avatar.bmp");
 }
 
 :root[theme='dark'] {
@@ -147,7 +147,7 @@ body::-webkit-scrollbar-button {
         margin: 0;
         padding: 0;
         outline: none;
-        transition: background, background-color 0.2s;
+        transition: background-color 0.3s;
     }
 
 
@@ -266,7 +266,9 @@ body {
 #main {
     padding: 0 !important;
     margin: 0;
+    background-color: var(--BackgroundColor);
 }
+
 
 
 /* 侧边折叠 */
@@ -376,10 +378,10 @@ body {
 
 #lnkBlogLogo {
 	display: block;
-	width: 80px;
-	height: 50px;
+	width: 64px;
+	height: 64px;
 	margin-right: 30px;
-	border-radius: 15%;
+	border-radius: 100%;
 	background-image: var(--Avatar);
 	background-position: center;
 	background-size: cover;
@@ -847,6 +849,7 @@ body {
     #blogCalendar .CalTitle td[align="center"] {
         background: var(--BlockColor);
         color: var(--TextColor1) !important;
+        
     }
 
     #blog-calendar * {
@@ -1123,6 +1126,11 @@ body {
         width: 100%;
         padding: 78px 10px 14px !important;
         margin: 0 auto !important;
+        color: var(--BlockColor) !important;
+    }
+
+    .forFlow:hover{
+        box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.18);
     }
 }
 
@@ -1138,13 +1146,13 @@ body {
         padding: 0px !important;
         margin: 0 !important;
         border-radius: 10px;
-        box-shadow: 2px 2px 12px rgba(0,0,0,.2);
+        box-shadow: 3px 3px 12px rgba(0,0,0,.4);
         margin-top: 40px;
         transition: 0.3s;
     }
 
     .day:hover{
-        box-shadow: 7px 5px 7px rgba(0,0,0,.35);
+        box-shadow: 3px 3px 4px rgba(0,0,0,.2);
     }
 
     .postSeparator {
@@ -1178,6 +1186,7 @@ body {
         display: block !important;
         padding: 10px 14px;
         text-align: center;
+        color: rgb(37, 37, 37);
     }
 
     #nav_next_page a:after {
@@ -1186,7 +1195,7 @@ body {
     }
 
     #nav_next_page a:hover {
-        color: inherit;
+        color: #2196F3;
     }
 }
 
